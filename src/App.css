@@ -1,0 +1,21 @@
+html {
+	scroll-behavior: smooth;
+}
+.modalIn {
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(0.2);
+	transition:
+		transform 0.5s ease,
+		opacity 0.5s ease,
+		visibility 0.5s ease;
+}
+.modalOut {
+	opacity: 1;
+	visibility: visible;
+	transform: scale(1);
+	transition:
+		transform 1s ease,
+		opacity 1.5s ease,
+		visibility 1.5s ease;
+}
